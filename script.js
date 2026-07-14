@@ -25,7 +25,7 @@ const DEFAULT_PRODUCTS = [
     desc:"Notebook bersampul vintage bermotif mawar dengan kertas dot-grid lembut, cocok untuk journaling harian atau mencatat ide-ide manis." },
   { id:2, name:"Pulpen Gel Pastel Set (5pcs)", category:"stationery", price:35000, stock:20, icon:"🖊️", image:"image/pulpen-gel.jpg",
     desc:"Satu set berisi 5 pulpen gel warna pastel lembut dengan tinta halus dan tahan lama, teman setia menulis surat maupun tugas harian." },
-  { id:3, name:"Pembatas Buku Bunga Kering", category:"stationery", price:15000, stock:0, icon:"🔖", image:"image/cat-stationery.svg",
+  { id:3, name:"Pembatas Buku Bunga Kering", category:"stationery", price:15000, stock:0, icon:"🔖", image:"image/pembatas-buku.jpg",
     desc:"Pembatas buku laminasi berisi bunga kering asli — unik, estetik, dan tak ada satupun yang sama persis." },
   { id:4, name:"Sticker Pack Aesthetic Diary", category:"stationery", price:18000, stock:30, icon:"✨", image:"image/stiker pack.jpg",
     desc:"Kumpulan stiker aesthetic bertema bunga dan bintang untuk mempercantik diary, planner, maupun laptop kesayanganmu." },
@@ -45,13 +45,13 @@ const DEFAULT_PRODUCTS = [
     desc:"Blind box bertema taman fantasi berisi karakter-karakter imut serba misteri — kejutan menyenangkan di setiap kotaknya." },
   { id:12, name:"Blind Box Cry Baby Series", category:"blindbox", price:98000, stock:0, icon:"😢", image:"image/cry-baby-series.jpg",
     desc:"Blind box tema Cry Baby yang ekspresif dan menggemaskan, favorit para kolektor figur unik." },
-  { id:13, name:"Blind Box Dark Academia", category:"blindbox", price:98000, stock:9, icon:"📚", image:"image/blind-box-dark-academia",
+  { id:13, name:"Blind Box Dark Academia", category:"blindbox", price:98000, stock:9, icon:"📚", image:"image/blind-box-dark-academia.jpg",
     desc:"Blind box bertema Dark Academia dengan nuansa klasik misterius, cocok untuk pecinta estetika akademik aneh." },
   { id:14, name:"Blind Box Duck", category:"blindbox", price:99000, stock:6, icon:"🎎", image:"image/blind-box-duck",
     desc:"Blind box tema bebek yang lucu dengan aksesori menggemaskan, tiap seri membawa ekspresi berbeda." },
   { id:15, name:"Buket Stationery Pastel", category:"buket", price:120000, stock:6, icon:"💐", image:"image/buket-stationery.jpg",
     desc:"Buket unik berisi rangkaian alat tulis pastel — pulpen, sticky notes, hingga pensil — hadiah anti-mainstream yang tetap berguna." },
-  { id:16, name:"Buket Blind Box mix", category:"buket", price:150000, stock:5, icon:"🎁", image:"image/buket-blindbox-mix.jpg",
+  { id:16, name:"Buket Blind Box mix", category:"buket", price:150000, stock:5, icon:"🎁", image:"image/buket-blindbox.jpg",
     desc:"Rangkaian buket berisi beberapa blind box mini, memadukan kejutan koleksi dengan keindahan buket hadiah." },
   { id:17, name:"Bloom Memory Frame", category:"buket", price:110000, stock:7, icon:"🌾", image:"image/bloom-memory-frame.jpg",
     desc:"Buket bunga kering yang dirancang dalam bingkai eksklusif dengan ruang tersembunyi untuk menyimpan surat atau pesan istimewa. Lebih dari sekadar hadiah, setiap buket menjadi simbol kenangan yang dapat dikenang selamanya." },
@@ -67,13 +67,13 @@ const DEFAULT_PRODUCTS = [
 ];
 
 const UPCOMING_PRODUCTS = [
-  { id:"u1", name:"Blind Box Celestial Dreams", category:"blindbox", icon:"🌌", eta:"Agustus 2026", image:"image/blind-box-celestial-dreams.jpg",
+  { id:"u1", name:"Blind Box Celestial Dreams", category:"blindbox", icon:"🌌", eta:"Agustus 2026", image:"image/blind-box-celestial-planet.jpg",
     desc:"Seri terbaru bertema langit malam penuh bintang, kejutan karakter baru menanti." },
   { id:"u2", name:"Jar of Gratitude", category:"letter", icon:"🍀", eta:"Agustus 2026", image:"image/jar-of-gratitude.jpg",
     desc:"Toples kartu rasa syukur harian, teman kecil untuk menumbuhkan hati yang lebih ringan." }, 
   { id:"u3", name:"Lampu Proyektor Galaxy", category:"hiasan", icon:"🌠", eta:"September 2026", image:"image/lampu-proyektor-galaksi.jpg",
     desc:"Lampu proyektor efek galaksi berputar, ubah kamar jadi planetarium mini." },
-  { id:"u4", name:"Buket Preserved Rose", category:"buket", icon:"🌹", eta:"September 2026", image:"image/preserved-rose.jpg",
+  { id:"u4", name:"Buket Preserved Rose", category:"buket", icon:"🌹", eta:"September 2026", image:"image/upcoming-roses-bouquet-frame.jpg",
     desc:"Buket mawar preserved tahan hingga setahun, elegan tanpa perlu perawatan air." }
 ];
 
