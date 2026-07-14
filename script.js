@@ -23,43 +23,43 @@ const VOUCHERS = {
 const DEFAULT_PRODUCTS = [
   { id:1, name:"Notebook Vintage Rose", category:"stationery", price:45000, stock:15, icon:"📓", image:"image/notebook.jpg",
     desc:"Notebook bersampul vintage bermotif mawar dengan kertas dot-grid lembut, cocok untuk journaling harian atau mencatat ide-ide manis." },
-  { id:2, name:"Pulpen Gel Pastel Set (5pcs)", category:"stationery", price:35000, stock:20, icon:"🖊️", image:"image/cat-stationery.svg",
+  { id:2, name:"Pulpen Gel Pastel Set (5pcs)", category:"stationery", price:35000, stock:20, icon:"🖊️", image:"image/pulpen-gel.jpg",
     desc:"Satu set berisi 5 pulpen gel warna pastel lembut dengan tinta halus dan tahan lama, teman setia menulis surat maupun tugas harian." },
   { id:3, name:"Pembatas Buku Bunga Kering", category:"stationery", price:15000, stock:0, icon:"🔖", image:"image/cat-stationery.svg",
     desc:"Pembatas buku laminasi berisi bunga kering asli — unik, estetik, dan tak ada satupun yang sama persis." },
-  { id:4, name:"Sticker Pack Aesthetic Diary", category:"stationery", price:18000, stock:30, icon:"✨", image:"image/cat-stationery.svg",
+  { id:4, name:"Sticker Pack Aesthetic Diary", category:"stationery", price:18000, stock:30, icon:"✨", image:"image/stiker pack.jpg",
     desc:"Kumpulan stiker aesthetic bertema bunga dan bintang untuk mempercantik diary, planner, maupun laptop kesayanganmu." },
-  { id:5, name:"Planner Mingguan Dreamy", category:"stationery", price:52000, stock:2, icon:"🗒️", image:"image/cat-stationery.svg",
+  { id:5, name:"Planner Mingguan", category:"stationery", price:52000, stock:2, icon:"🗒️", image:"image/planner-mingguan.jpg",
     desc:"Planner mingguan dengan ilustrasi dreamy pastel, membantu menyusun jadwal sekaligus jadi teman semangat sepanjang minggu." },
-  { id:6, name:"Lampu Tidur Bulan Mini", category:"hiasan", price:85000, stock:10, icon:"🌙", image:"image/cat-hiasan.svg",
+  { id:6, name:"Lampu Tidur Bulan Mini", category:"hiasan", price:85000, stock:10, icon:"🌙", image:"image/lampu-tidur-sentuh.jpg",
     desc:"Lampu tidur meja berbentuk bulan sabit dengan cahaya hangat yang menenangkan, cocok menemani malam-malam tenangmu." },
-  { id:7, name:"Lampu Gantung String Fairy Lights", category:"hiasan", price:60000, stock:12, icon:"🪔", image:"image/cat-hiasan.svg",
+  { id:7, name:"Lampu Gantung String Fairy Lights", category:"hiasan", price:60000, stock:12, icon:"🪔", image:"image/lampu-gantung-fairy.jpg",
     desc:"Lampu gantung LED berbentuk untaian bintang, mudah dipasang untuk mempercantik dinding kamar maupun area belajar." },
-  { id:8, name:"Keychain Bunga Resin", category:"hiasan", price:22000, stock:25, icon:"🔑", image:"image/cat-hiasan.svg",
+  { id:8, name:"Keychain Bunga Resin", category:"hiasan", price:22000, stock:25, icon:"🔑", image:"image/keychain-resin.jpg",
     desc:"Gantungan kunci resin bermotif bunga asli yang diawetkan — cantik, ringan, dan tahan lama dibawa ke mana saja." },
-  { id:9, name:"Jam Meja Mini Klasik", category:"hiasan", price:75000, stock:1, icon:"🕰️", image:"image/cat-hiasan.svg",
+  { id:9, name:"Jam Meja Mini Lucu", category:"hiasan", price:75000, stock:1, icon:"🕰️", image:"image/jam-meja-kecil.jpg",
     desc:"Jam meja mini bergaya klasik elegan, mempercantik meja belajar sekaligus menemani rutinitasmu tetap tepat waktu." },
-  { id:10, name:"Cermin Kecil Bingkai Bunga", category:"hiasan", price:40000, stock:8, icon:"🪞", image:"image/cat-hiasan.svg",
+  { id:10, name:"Cermin Kecil Bingkai Bunga", category:"hiasan", price:40000, stock:8, icon:"🪞", image:"image/cermin-kecil.jpg",
     desc:"Cermin kecil dengan bingkai bunga estetik, pas diletakkan di meja rias maupun rak buku sebagai sentuhan manis." },
   { id:11, name:"Blind Box Fantasy Garden", category:"blindbox", price:95000, stock:14, icon:"🌸", image:"image/blind-box-fantasy-garden.jpg",
     desc:"Blind box bertema taman fantasi berisi karakter-karakter imut serba misteri — kejutan menyenangkan di setiap kotaknya." },
-  { id:12, name:"Blind Box Cry Baby Series", category:"blindbox", price:98000, stock:0, icon:"😢", image:"image/cat-blindbox.svg",
+  { id:12, name:"Blind Box Cry Baby Series", category:"blindbox", price:98000, stock:0, icon:"😢", image:"image/cry-baby-series.jpg",
     desc:"Blind box tema Cry Baby yang ekspresif dan menggemaskan, favorit para kolektor figur unik." },
-  { id:13, name:"Blind Box Dark Academia", category:"blindbox", price:98000, stock:9, icon:"📚", image:"image/cat-blindbox.svg",
-    desc:"Blind box bertema Dark Academia dengan nuansa klasik misterius, cocok untuk pecinta estetika akademik vintage." },
-  { id:14, name:"Blind Box Doll Whisper", category:"blindbox", price:99000, stock:6, icon:"🎎", image:"image/cat-blindbox.svg",
-    desc:"Blind box tema boneka misterius dengan desain lembut nan artistik, tiap seri membawa ekspresi berbeda." },
-  { id:15, name:"Buket Stationery Pastel", category:"buket", price:120000, stock:6, icon:"💐", image:"image/preserved-flower.jpg",
+  { id:13, name:"Blind Box Dark Academia", category:"blindbox", price:98000, stock:9, icon:"📚", image:"image/blind-box-dark-academia",
+    desc:"Blind box bertema Dark Academia dengan nuansa klasik misterius, cocok untuk pecinta estetika akademik aneh." },
+  { id:14, name:"Blind Box Duck", category:"blindbox", price:99000, stock:6, icon:"🎎", image:"image/blind-box-duck",
+    desc:"Blind box tema bebek yang lucu dengan aksesori menggemaskan, tiap seri membawa ekspresi berbeda." },
+  { id:15, name:"Buket Stationery Pastel", category:"buket", price:120000, stock:6, icon:"💐", image:"image/buket-stationery.jpg",
     desc:"Buket unik berisi rangkaian alat tulis pastel — pulpen, sticky notes, hingga pensil — hadiah anti-mainstream yang tetap berguna." },
-  { id:16, name:"Buket Blind Box Surprise", category:"buket", price:150000, stock:5, icon:"🎁", image:"image/cat-buket.svg",
+  { id:16, name:"Buket Blind Box mix", category:"buket", price:150000, stock:5, icon:"🎁", image:"image/buket-blindbox-mix.jpg",
     desc:"Rangkaian buket berisi beberapa blind box mini, memadukan kejutan koleksi dengan keindahan buket hadiah." },
   { id:17, name:"Bloom Memory Frame", category:"buket", price:110000, stock:7, icon:"🌾", image:"image/bloom-memory-frame.jpg",
     desc:"Buket bunga kering yang dirancang dalam bingkai eksklusif dengan ruang tersembunyi untuk menyimpan surat atau pesan istimewa. Lebih dari sekadar hadiah, setiap buket menjadi simbol kenangan yang dapat dikenang selamanya." },
-  { id:18, name:"Jar of Mood", category:"letter", price:48000, stock:11, icon:"🫙", image:"image/cat-letter.svg",
+  { id:18, name:"Jar of Mood", category:"letter", price:48000, stock:11, icon:"🫙", image:"image/jar-of-mood.jpg",
     desc:"Toples berisi puluhan kartu mood harian mungil untuk menemani dan merayakan setiap suasana hatimu." },
-  { id:19, name:"Motivation Jar", category:"letter", price:48000, stock:4, icon:"🌟", image:"image/cat-letter.svg",
+  { id:19, name:"Motivation Jar", category:"letter", price:48000, stock:4, icon:"🌟", image:"image/motivation-jar.jpg",
     desc:"Toples berisi puluhan kartu motivasi harian untuk menyemangati harimu, satu kartu satu semangat baru." },
-  { id:20, name:"Secret Letter Box — For Me 10 Years Later", category:"letter", price:55000, stock:3, icon:"✉️", image:"image/cat-letter.svg",
+  { id:20, name:"For Me 10 Years Later", category:"letter", price:55000, stock:3, icon:"✉️", image:"image/FM10YL.jpg",
     desc:"Kotak surat rahasia untuk kamu tulis hari ini dan buka kembali sepuluh tahun mendatang — kapsul waktu penuh kenangan." },
    { id:21, name:"Blind Box Japanese Pastry Keychain", category:"blindbox", price:25000, stock:10, icon:"🍡", image:"image/pastry-blind-box.jpg",
     desc:"Kotak surat rahasia untuk kamu tulis hari ini dan buka kembali sepuluh tahun mendatang — kapsul waktu penuh kenangan." },
@@ -67,13 +67,13 @@ const DEFAULT_PRODUCTS = [
 ];
 
 const UPCOMING_PRODUCTS = [
-  { id:"u1", name:"Blind Box Celestial Dreams", category:"blindbox", icon:"🌌", eta:"Agustus 2026",
+  { id:"u1", name:"Blind Box Celestial Dreams", category:"blindbox", icon:"🌌", eta:"Agustus 2026", image:"image/blind-box-celestial-dreams.jpg",
     desc:"Seri terbaru bertema langit malam penuh bintang, kejutan karakter baru menanti." },
-  { id:"u2", name:"Jar of Gratitude", category:"letter", icon:"🍀", eta:"Agustus 2026",
-    desc:"Toples kartu rasa syukur harian, teman kecil untuk menumbuhkan hati yang lebih ringan." },
-  { id:"u3", name:"Lampu Proyektor Galaxy", category:"hiasan", icon:"🌠", eta:"September 2026",
+  { id:"u2", name:"Jar of Gratitude", category:"letter", icon:"🍀", eta:"Agustus 2026", image:"image/jar-of-gratitude.jpg",
+    desc:"Toples kartu rasa syukur harian, teman kecil untuk menumbuhkan hati yang lebih ringan." }, 
+  { id:"u3", name:"Lampu Proyektor Galaxy", category:"hiasan", icon:"🌠", eta:"September 2026", image:"image/lampu-proyektor-galaksi.jpg",
     desc:"Lampu proyektor efek galaksi berputar, ubah kamar jadi planetarium mini." },
-  { id:"u4", name:"Buket Preserved Rose", category:"buket", icon:"🌹", eta:"September 2026",
+  { id:"u4", name:"Buket Preserved Rose", category:"buket", icon:"🌹", eta:"September 2026", image:"image/preserved-rose.jpg",
     desc:"Buket mawar preserved tahan hingga setahun, elegan tanpa perlu perawatan air." }
 ];
 
@@ -505,7 +505,7 @@ function renderProductModalBody(){
         </div>
         <button class="btn btn-line btn-block wishlist-btn-inline" id="pmWishlistBtn">${wishlist.includes(p.id) ? "♥ Di Wishlist" : "♡ Simpan ke Wishlist"}</button>
 
-        <h4 class="pm-section-title">Beri Rating (gunakan bunga ✿)</h4>
+        <h4 class="pm-section-title">Beri Rating</h4>
         ${flowerRatingInteractive(p.id, myFlowerPick)}
 
         <h4 class="pm-section-title">Ulasan Produk (${reviews.length})</h4>
