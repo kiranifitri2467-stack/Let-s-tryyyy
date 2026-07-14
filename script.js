@@ -43,7 +43,7 @@ const DEFAULT_PRODUCTS = [
     desc:"Cermin kecil dengan bingkai bunga estetik, pas diletakkan di meja rias maupun rak buku sebagai sentuhan manis." },
   // Blind Box Fantasy Garden — sekarang punya 2 gambar (gallery)
   { id:11, name:"Blind Box Fantasy Garden", category:"blindbox", price:95000, stock:14, icon:"🌸",
-    images:["image/blindbox-fantasy-1.jpg","image/blindbox-fantasy-2.jpg"], image:"image/blindbox-fantasy-1.jpg",
+    images:["image/blind-box-fantasy-garden-1.jpg","image/blind-box-fantasy-garden-2.jpg"],
     desc:"Blind box bertema taman fantasi berisi karakter-karakter imut serba misteri — kejutan menyenangkan di setiap kotaknya." },
   { id:12, name:"Blind Box Cry Baby Series", category:"blindbox", price:98000, stock:0, icon:"😢", image:"image/cat-blindbox.svg",
     desc:"Blind box tema Cry Baby yang ekspresif dan menggemaskan, favorit para kolektor figur unik." },
