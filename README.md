@@ -61,9 +61,9 @@ Kompetitor umumnya hanya fokus pada satu kategori (misalnya khusus blind box, at
 **Struktur kategori (5 kategori inti):**
 1. **Stationery** — notebook, pulpen/pensil, pembatas buku, stiker, planner
 2. **Hiasan** — lampu meja/gantung, keychain, jam kecil, cermin
-3. **Blind Box** — tema Fantasy Garden, Dark Academia, Cry Baby, Doll, dsb.
+3. **Blind Box** — tema Fantasy Garden, Dark Academia, Cry Baby, Duck, dsb.
 4. **Buket** — buket stationery, buket blind box, buket dry flower
-5. **Letter & Keepsakes** — Jar of Mood, Motivation Jar, Secret Letter Box
+5. **Letter & Keepsakes** — Jar of Mood, Motivation Jar, For me 10 years later
 
 **Prinsip pengelolaan katalog:**
 - **Deskripsi bernarasi**, bukan sekadar spesifikasi — setiap produk ditulis dengan nada personal/hangat agar konsisten dengan value proposition "kenangan".
@@ -176,7 +176,7 @@ lily-of-lies/
 ├── index.html          → seluruh markup halaman (navbar, hero, katalog, modal, footer)
 ├── style.css            → seluruh styling & responsive design
 ├── script.js             → seluruh logika interaktif (produk, cart, checkout, admin, dsb.)
-└── image/                → seluruh foto & ilustrasi produk (± 26 file)
+└── image/                → seluruh foto & ilustrasi produk (± 25 file)
 ```
 
 **Peran tiap file:**
@@ -194,6 +194,4 @@ lily-of-lies/
 **Alur data singkat:**
 Data produk & harga → didefinisikan langsung di `script.js` (bukan database, karena jarang berubah) → stok, rating, ulasan, dan pesanan disinkronkan dua arah dengan Firestore → localStorage bertindak sebagai lapisan cache agar situs tetap berfungsi walau koneksi internet sedang tidak stabil.
 
----
 
-*Dokumen ini bersifat hidup (living document) dan sebaiknya diperbarui seiring perkembangan bisnis Lily of Lies.*
