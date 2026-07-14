@@ -27,14 +27,14 @@ const DEFAULT_PRODUCTS = [
     desc:"Satu set berisi 5 pulpen gel warna pastel lembut dengan tinta halus dan tahan lama, teman setia menulis surat maupun tugas harian." },
   { id:3, name:"Pembatas Buku Bunga Kering", category:"stationery", price:15000, stock:0, icon:"🔖", image:"image/pembatas-buku.jpg",
     desc:"Pembatas buku laminasi berisi bunga kering asli — unik, estetik, dan tak ada satupun yang sama persis." },
-  { id:4, name:"Sticker Pack Aesthetics", category:"stationery", price:18000, stock:30, icon:"✨", image:"image/stiker.jpg",
+  { id:4, name:"Sticker Pack Aesthetics", category:"stationery", price:18000, stock:30, icon:"✨", image:"image/sticker.jpg",
     desc:"Kumpulan stiker aesthetic bertema bunga dan bintang untuk mempercantik diary, planner, maupun laptop kesayanganmu." },
   { id:5, name:"Planner Mingguan", category:"stationery", price:52000, stock:2, icon:"🗒️", image:"image/planner-aesthetic.jpg",
     desc:"Planner mingguan dengan ilustrasi dreamy pastel, membantu menyusun jadwal sekaligus jadi teman semangat sepanjang minggu." },
-  { id:6, name:"Lampu Tidur Bulan Mini", category:"hiasan", price:85000, stock:10, icon:"🌙", image:"image/lampu-tepuk.jpg",
-    desc:"Lampu tidur meja berbentuk bulan sabit dengan cahaya hangat yang menenangkan, cocok menemani malam-malam tenangmu." },
+  { id:6, name:"Lampu Tidur Tepuk", category:"hiasan", price:85000, stock:10, icon:"🌙", image:"image/lampu-tepuk.jpg",
+    desc:"Lampu tidur meja berbentuk bebek dengan cahaya hangat yang menenangkan, cocok menemani malam-malam tenangmu." },
   { id:7, name:"Lampu Gantung String Fairy Lights", category:"hiasan", price:60000, stock:12, icon:"🪔", image:"image/lampu-strinh-fairy.jpg",
-    desc:"Lampu gantung LED berbentuk untaian bintang, mudah dipasang untuk mempercantik dinding kamar maupun area belajar." },
+    desc:"Lampu gantung LED berbentuk untaian bunga tulip, mudah dipasang untuk mempercantik dinding kamar maupun area belajar." },
   { id:8, name:"Keychain Bunga Resin", category:"hiasan", price:22000, stock:25, icon:"🔑", image:"image/keychain-resin.jpg",
     desc:"Gantungan kunci resin bermotif bunga asli yang diawetkan — cantik, ringan, dan tahan lama dibawa ke mana saja." },
   { id:9, name:"Jam Meja Mini Lucu", category:"hiasan", price:75000, stock:1, icon:"🕰️", image:"image/jam-kecil.jpg",
@@ -62,7 +62,7 @@ const DEFAULT_PRODUCTS = [
   { id:20, name:"For Me 10 Years Later", category:"letter", price:55000, stock:3, icon:"✉️", image:"image/FM10YL.jpg",
     desc:"Kotak surat rahasia untuk kamu tulis hari ini dan buka kembali sepuluh tahun mendatang — kapsul waktu penuh kenangan." },
    { id:21, name:"Blind Box Japanese Pastry Keychain", category:"blindbox", price:25000, stock:10, icon:"🍡", image:"image/pastry-blind-box.jpg",
-    desc:"Kotak surat rahasia untuk kamu tulis hari ini dan buka kembali sepuluh tahun mendatang — kapsul waktu penuh kenangan." },
+    desc:"Blind Box dengan tema Japanese Pastry yang mungil dan lucu. Cocok untuk digunakan sebagai gantungan kunci." },
    
 ];
 
