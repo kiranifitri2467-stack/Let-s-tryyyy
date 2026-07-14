@@ -27,7 +27,7 @@ const DEFAULT_PRODUCTS = [
     desc:"Satu set berisi 5 pulpen gel warna pastel lembut dengan tinta halus dan tahan lama, teman setia menulis surat maupun tugas harian." },
   { id:3, name:"Pembatas Buku Bunga Kering", category:"stationery", price:15000, stock:0, icon:"🔖", image:"image/pembatas-buku.jpg",
     desc:"Pembatas buku laminasi berisi bunga kering asli — unik, estetik, dan tak ada satupun yang sama persis." },
-  { id:4, name:"Sticker Pack Aesthetic Diary", category:"stationery", price:18000, stock:30, icon:"✨", image:"image/stiker.png",
+  { id:4, name:"Sticker Pack Aesthetics", category:"stationery", price:18000, stock:30, icon:"✨", image:"image/stiker.jpg",
     desc:"Kumpulan stiker aesthetic bertema bunga dan bintang untuk mempercantik diary, planner, maupun laptop kesayanganmu." },
   { id:5, name:"Planner Mingguan", category:"stationery", price:52000, stock:2, icon:"🗒️", image:"image/planner-mingguan.jpg",
     desc:"Planner mingguan dengan ilustrasi dreamy pastel, membantu menyusun jadwal sekaligus jadi teman semangat sepanjang minggu." },
@@ -429,7 +429,8 @@ function renderUpcoming(){
     <div class="upcoming-card" data-id="${u.id}">
       <div class="upcoming-media">
         <span class="soon-badge">Segera Hadir</span>
-        ${u.icon}
+        <img class="media-img" src="${u.image}" alt="${escapeHtml(u.name)}" loading="lazy" onerror="this.remove()">
+        <span class="upcoming-icon">${u.icon}</span>
       </div>
       <div class="upcoming-body">
         <span class="upcoming-eta">Rilis ${u.eta}</span>
