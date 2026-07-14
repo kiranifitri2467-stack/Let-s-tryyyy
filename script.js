@@ -21,7 +21,7 @@ const VOUCHERS = {
 };
 
 const DEFAULT_PRODUCTS = [
-  { id:1, name:"Notebook Vintage Rose", category:"stationery", price:45000, stock:15, icon:"📓", image:"image/notebook-vintage-rose.jpg",
+  { id:1, name:"Notebook Vintage Rose", category:"stationery", price:45000, stock:15, icon:"📓", image:"image/notebook.jpg",
     desc:"Notebook bersampul vintage bermotif mawar dengan kertas dot-grid lembut, cocok untuk journaling harian atau mencatat ide-ide manis." },
   { id:2, name:"Pulpen Gel Pastel Set (5pcs)", category:"stationery", price:35000, stock:20, icon:"🖊️", image:"image/cat-stationery.svg",
     desc:"Satu set berisi 5 pulpen gel warna pastel lembut dengan tinta halus dan tahan lama, teman setia menulis surat maupun tugas harian." },
@@ -49,7 +49,7 @@ const DEFAULT_PRODUCTS = [
     desc:"Blind box bertema Dark Academia dengan nuansa klasik misterius, cocok untuk pecinta estetika akademik vintage." },
   { id:14, name:"Blind Box Doll Whisper", category:"blindbox", price:99000, stock:6, icon:"🎎", image:"image/cat-blindbox.svg",
     desc:"Blind box tema boneka misterius dengan desain lembut nan artistik, tiap seri membawa ekspresi berbeda." },
-  { id:15, name:"Buket Stationery Pastel", category:"buket", price:120000, stock:6, icon:"💐", image:"image/cat-buket.svg",
+  { id:15, name:"Buket Stationery Pastel", category:"buket", price:120000, stock:6, icon:"💐", image:"image/preserved-flower.jpg",
     desc:"Buket unik berisi rangkaian alat tulis pastel — pulpen, sticky notes, hingga pensil — hadiah anti-mainstream yang tetap berguna." },
   { id:16, name:"Buket Blind Box Surprise", category:"buket", price:150000, stock:5, icon:"🎁", image:"image/cat-buket.svg",
     desc:"Rangkaian buket berisi beberapa blind box mini, memadukan kejutan koleksi dengan keindahan buket hadiah." },
@@ -60,7 +60,10 @@ const DEFAULT_PRODUCTS = [
   { id:19, name:"Motivation Jar", category:"letter", price:48000, stock:4, icon:"🌟", image:"image/cat-letter.svg",
     desc:"Toples berisi puluhan kartu motivasi harian untuk menyemangati harimu, satu kartu satu semangat baru." },
   { id:20, name:"Secret Letter Box — For Me 10 Years Later", category:"letter", price:55000, stock:3, icon:"✉️", image:"image/cat-letter.svg",
-    desc:"Kotak surat rahasia untuk kamu tulis hari ini dan buka kembali sepuluh tahun mendatang — kapsul waktu penuh kenangan." }
+    desc:"Kotak surat rahasia untuk kamu tulis hari ini dan buka kembali sepuluh tahun mendatang — kapsul waktu penuh kenangan." },
+   { id:21, name:"Blind Box Japanese Pastry Keychain", category:"blindbox", price:25000, stock:10, icon:"🍡", image:"image/pastry-blind-box.jpg",
+    desc:"Kotak surat rahasia untuk kamu tulis hari ini dan buka kembali sepuluh tahun mendatang — kapsul waktu penuh kenangan." },
+   
 ];
 
 const UPCOMING_PRODUCTS = [
