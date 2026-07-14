@@ -41,7 +41,7 @@ const DEFAULT_PRODUCTS = [
     desc:"Jam meja mini bergaya klasik elegan, mempercantik meja belajar sekaligus menemani rutinitasmu tetap tepat waktu." },
   { id:10, name:"Cermin Kecil Bingkai Bunga", category:"hiasan", price:40000, stock:8, icon:"🪞", image:"image/cat-hiasan.svg",
     desc:"Cermin kecil dengan bingkai bunga estetik, pas diletakkan di meja rias maupun rak buku sebagai sentuhan manis." },
-  { id:11, name:"Blind Box Fantasy Garden", category:"blindbox", price:95000, stock:14, icon:"🌸", image:"image/cat-blindbox.svg",
+  { id:11, name:"Blind Box Fantasy Garden", category:"blindbox", price:95000, stock:14, icon:"🌸", image:("image/blind-box-fantasy-garden-1","image/blind-box-fantasy-garden-2"),
     desc:"Blind box bertema taman fantasi berisi karakter-karakter imut serba misteri — kejutan menyenangkan di setiap kotaknya." },
   { id:12, name:"Blind Box Cry Baby Series", category:"blindbox", price:98000, stock:0, icon:"😢", image:"image/cat-blindbox.svg",
     desc:"Blind box tema Cry Baby yang ekspresif dan menggemaskan, favorit para kolektor figur unik." },
