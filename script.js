@@ -51,7 +51,7 @@ const DEFAULT_PRODUCTS = [
     desc:"Blind box tema bebek yang lucu dengan aksesori menggemaskan, tiap seri membawa ekspresi berbeda." },
   { id:15, name:"Buket Stationery Pastel", category:"buket", price:120000, stock:6, icon:"💐", image:"image/buket-stationery.jpg",
     desc:"Buket unik berisi rangkaian alat tulis pastel — pulpen, sticky notes, hingga pensil — hadiah anti-mainstream yang tetap berguna." },
-  { id:16, name:"Buket Blind Box mix", category:"buket", price:150000, stock:5, icon:"🎁", image:"image/buket-blindbox.jpg",
+  { id:16, name:"Buket Blind Box mix", category:"buket", price:500000, stock:5, icon:"🎁", image:"image/buket-blindbox.jpg",
     desc:"Rangkaian buket berisi beberapa blind box mini, memadukan kejutan koleksi dengan keindahan buket hadiah." },
   { id:17, name:"Bloom Memory Frame", category:"buket", price:110000, stock:7, icon:"🌾", image:"image/bloom-memory-frame.jpg",
     desc:"Buket bunga kering yang dirancang dalam bingkai eksklusif dengan ruang tersembunyi untuk menyimpan surat atau pesan istimewa. Lebih dari sekadar hadiah, setiap buket menjadi simbol kenangan yang dapat dikenang selamanya." },
