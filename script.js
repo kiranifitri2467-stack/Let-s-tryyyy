@@ -69,7 +69,7 @@ const DEFAULT_PRODUCTS = [
 const UPCOMING_PRODUCTS = [
   { id:"u1", name:"Blind Box Celestial Dreams", category:"blindbox", icon:"🌌", eta:"Agustus 2026", image:"image/blind-box-celestial-dream.jpg",
     desc:"Seri terbaru bertema langit malam penuh bintang, kejutan karakter baru menanti." },
-  { id:"u2", name:"Jar of Gratitude", category:"letter", icon:"🍀", eta:"Agustus 2026", image:"image/jar-of-gratitude.jpg",
+  { id:"u2", name:"Jar of Gratitude", category:"letter", icon:"🍀", eta:"Agustus 2026", image:"image/gratitude-jar.jpg",
     desc:"Toples kartu rasa syukur harian, teman kecil untuk menumbuhkan hati yang lebih ringan." }, 
   { id:"u3", name:"Lampu Proyektor Galaxy", category:"hiasan", icon:"🌠", eta:"September 2026", image:"image/lampu-proyektor.jpg",
     desc:"Lampu proyektor efek galaksi berputar, ubah kamar jadi planetarium mini." },
