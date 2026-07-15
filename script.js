@@ -21,10 +21,10 @@ const VOUCHERS = {
 };
 
 const DEFAULT_PRODUCTS = [
-  { id:1, name:"Notebook Vintage Rose", category:"stationery", price:45000, stock:15, icon:"📓", image:"image/notebook.jpg",
-    desc:"Notebook bersampul vintage bermotif mawar dengan kertas dot-grid lembut, cocok untuk journaling harian atau mencatat ide-ide manis." },
-  { id:2, name:"Pulpen Gel Pastel Set (5pcs)", category:"stationery", price:35000, stock:20, icon:"🖊️", image:"image/pulpen-gel.jpg",
-    desc:"Satu set berisi 5 pulpen gel warna pastel lembut dengan tinta halus dan tahan lama, teman setia menulis surat maupun tugas harian." },
+  { id:1, name:"Notebook Aesthetic", category:"stationery", price:45000, stock:15, icon:"📓", image:"image/notebook.jpg",
+    desc:"Notebook bersampul maroon bermotif bunga ala kolase dengan kertas dot-grid lembut, cocok untuk journaling harian atau mencatat ide-ide manis." },
+  { id:2, name:"Pulpen Gel Pastel Set (6pcs)", category:"stationery", price:35000, stock:20, icon:"🖊️", image:"image/pulpen-gel.jpg",
+    desc:"Satu set berisi 6 pulpen gel warna pastel lembut dengan tinta halus dan tahan lama, teman setia menulis surat maupun tugas harian." },
   { id:3, name:"Pembatas Buku Bunga Kering", category:"stationery", price:15000, stock:0, icon:"🔖", image:"image/pembatas-buku.jpg",
     desc:"Pembatas buku laminasi berisi bunga kering asli — unik, estetik, dan tak ada satupun yang sama persis." },
   { id:4, name:"Sticker Pack Aesthetics", category:"stationery", price:18000, stock:30, icon:"✨", image:"image/sticker.jpg",
