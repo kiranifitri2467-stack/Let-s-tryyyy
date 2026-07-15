@@ -1205,7 +1205,7 @@ function bindLoginEvents(){
     const u = document.getElementById("adminUserInput").value.trim();
     const pass = document.getElementById("adminPassInput").value.trim();
     const errEl = document.getElementById("errAdminLogin");
-    if(u === "admin" && pass === "admin123"){
+    if(u === "admin lol" && pass === "adminlol123"){
       isAdmin = true;
       localStorage.setItem("lol_admin_session","true");
       errEl.textContent = "";
@@ -1243,10 +1243,6 @@ function bindLoginEvents(){
   }
 }
 
-// Jika user berada di perangkat mobile tetapi memilih mode desktop, beberapa browser mengubah viewport.
-// Sesuaikan skala agar tetap muat di layar perangkat kecil (fungsi fallback, non-invasif).
-// (viewport adjustment removed to avoid layout issues)
-
 function bindAdminPanelEvents(){
   const searchInput = document.getElementById("adminOrderSearchInput");
   if(searchInput){
@@ -1266,7 +1262,7 @@ function bindAdminPanelEvents(){
       const price = parseInt(document.getElementById("newProdPrice").value, 10);
       const stock = parseInt(document.getElementById("newProdStock").value, 10);
       const icon = document.getElementById("newProdIcon").value.trim() || "🎁";
-      const image = document.getElementById("newProdImage").value.trim() || `image/cat-${category}.svg`;
+      const image = document.getElementById("newProdImage").value.trim() || `image/new-product.jpg`;
       const desc = document.getElementById("newProdDesc").value.trim();
 
       if(!name || !desc || isNaN(price) || price < 0 || isNaN(stock) || stock < 0){
@@ -1318,6 +1314,7 @@ function renderAdminTable(){
           <option value="new" ${currentBadge==="new"?"selected":""}>Baru</option>
           <option value="bestseller" ${currentBadge==="bestseller"?"selected":""}>Terlaris</option>
           <option value="sale" ${currentBadge==="sale"?"selected":""}>Diskon</option>
+          <option value="oursignatures" ${currentBadge==="oursignatures"?"selected":""}>oursignatures</option>
         </select>
       </td>
       <td>
