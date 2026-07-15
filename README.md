@@ -1,4 +1,4 @@
-# Lily of Lies — Gift & Letter Studio
+🌷 Lily of Lies — Gift & Letter Studio 🌷
 
 > *"More Than A Gift, A Memory"*
 
@@ -6,7 +6,7 @@ Dokumen ini merangkum konsep bisnis, strategi, dan rencana teknis di balik **Lil
 
 ---
 
-## 1. Nama Bisnis, Deskripsi, dan Value Proposition
+🌷 1. Nama Bisnis, Deskripsi, dan Value Proposition
 
 **Nama bisnis:** Lily of Lies — Gift & Letter Studio
 **Slogan:** *"More Than A Gift, A Memory"*
@@ -22,7 +22,7 @@ Lily of Lies adalah toko daring yang mengkurasi hadiah-hadiah kecil bernuansa es
 
 ---
 
-## 2. Target Market & Segmentasi Pelanggan
+🎯 2. Target Market & Segmentasi Pelanggan
 
 **Target utama:** Perempuan muda usia 15–28 tahun (Gen Z & Millennial muda), pelajar/mahasiswa dan pekerja muda di area urban, dengan minat pada estetika, jurnal/planner, dan budaya koleksi (collectible culture).
 
@@ -39,7 +39,7 @@ Lily of Lies adalah toko daring yang mengkurasi hadiah-hadiah kecil bernuansa es
 
 ---
 
-## 3. Analisis Pasar Singkat & Kompetitor
+🏙️ 3. Analisis Pasar Singkat & Kompetitor
 
 **Tren pasar pendukung:**
 - Naiknya popularitas *blind box collectible* (dipelopori brand seperti Pop Mart) di kalangan muda Indonesia.
@@ -56,7 +56,7 @@ Kompetitor umumnya hanya fokus pada satu kategori (misalnya khusus blind box, at
 
 ---
 
-## 4. Strategi Manajemen Produk & Katalog
+💡 4. Strategi Manajemen Produk & Katalog
 
 **Struktur kategori (5 kategori inti):**
 1. **Stationery** — notebook, pulpen/pensil, pembatas buku, stiker, planner
@@ -75,7 +75,7 @@ Kompetitor umumnya hanya fokus pada satu kategori (misalnya khusus blind box, at
 
 ---
 
-## 5. Model Bisnis & Revenue Stream
+💵 5. Model Bisnis & Revenue Stream
 
 **Model bisnis:** B2C (business-to-consumer), penjualan langsung ke konsumen akhir melalui situs web sendiri, dengan konfirmasi transaksi manual via WhatsApp.
 
@@ -89,7 +89,7 @@ Kompetitor umumnya hanya fokus pada satu kategori (misalnya khusus blind box, at
 
 ---
 
-## 6. Strategi Harga, Promosi, dan Diskon
+💰 6. Strategi Harga, Promosi, dan Diskon
 
 **Strategi harga:**
 Produk diposisikan pada rentang harga terjangkau-menengah (± Rp15.000 – Rp150.000), cocok untuk pembelian impulsif maupun hadiah terencana. Produk dengan biaya produksi/kurasi lebih tinggi (Buket, Blind Box) diberi margin lebih besar dibanding Stationery yang berfungsi sebagai *entry point* harga rendah untuk menarik pelanggan baru.
@@ -106,7 +106,7 @@ Diskon difokuskan pada dua tujuan: (1) akuisisi pelanggan baru (kode `NEWMEMORY`
 
 ---
 
-## 7. Proses Checkout & Simulasi Payment Gateway
+🛍️ 7. Proses Checkout & Simulasi Payment Gateway
 
 **Alur checkout saat ini:**
 1. Pelanggan menambahkan produk ke keranjang → checkout → mengisi data pengiriman.
@@ -125,7 +125,7 @@ Pada versi produksi nyata, langkah checkout butir 3 di atas akan digantikan oleh
 
 ---
 
-## 8. Rencana SEO, Keamanan, dan Pemeliharaan
+🔐 8. Rencana SEO, Keamanan, dan Pemeliharaan
 
 **SEO (Search Engine Optimization):**
 - Penggunaan tag `<meta name="description">` dan struktur heading (H1–H3) yang jelas pada tiap halaman.
@@ -148,7 +148,7 @@ Pada versi produksi nyata, langkah checkout butir 3 di atas akan digantikan oleh
 
 ---
 
-## 9. Rencana Penggunaan Data Analytics untuk Pengambilan Keputusan
+🔏 9. Rencana Penggunaan Data Analytics untuk Pengambilan Keputusan
 
 Situs terintegrasi dengan **Google Analytics** yang memantau sejumlah *event* penting sepanjang perjalanan pelanggan:
 
@@ -166,7 +166,7 @@ Situs terintegrasi dengan **Google Analytics** yang memantau sejumlah *event* pe
 
 ---
 
-## Lampiran: Struktur Teknis Proyek
+⚔️ Lampiran: Struktur Teknis Proyek
 
 Bagian ini menjelaskan susunan file di balik situs Lily of Lies — berguna sebagai referensi teknis, terpisah dari strategi bisnis di atas.
 
