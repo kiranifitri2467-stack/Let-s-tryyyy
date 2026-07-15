@@ -1315,7 +1315,7 @@ function renderAdminTable(){
           <option value="new" ${currentBadge==="new"?"selected":""}>Baru</option>
           <option value="bestseller" ${currentBadge==="bestseller"?"selected":""}>Terlaris</option>
           <option value="sale" ${currentBadge==="sale"?"selected":""}>Diskon</option>
-          <option value="oursignatures" ${currentBadge==="oursignatures"?"selected":""}>oursignatures</option>
+          <option value="oursignatures" ${currentBadge==="oursignatures"?"selected":""}>Our Signatures</option>
         </select>
       </td>
       <td>
