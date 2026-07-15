@@ -17,7 +17,8 @@ const CATEGORY_LABELS = {
 const VOUCHERS = {
   "LILY10": { type:"percent", value:10, label:"Diskon 10%" },
   "NEWMEMORY": { type:"flat", value:15000, label:"Potongan Rp15.000" },
-  "LOLANNIVE2": { type:"percent", value:50, label:"Diskon 50%"}
+  "LOLANNIV2": { type:"percent", value:50, label:"Diskon 50%"},
+  "NEWLAUNCH": { type:"flat", value:1000000, label:"Potongan Rp1.000.000"},
 };
 
 const DEFAULT_PRODUCTS = [
